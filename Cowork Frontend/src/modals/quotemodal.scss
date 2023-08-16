@@ -1,0 +1,169 @@
+.input_div_modal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  > input {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  > textArea {
+    margin-top: 10px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  > select {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+}
+.modal_submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  > button {
+    background-color: orange;
+    padding: 10px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+.payment_text {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+
+.pay_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  > button {
+    padding: 10px 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+.card_element {
+  border: 1px solid #cecece;
+  padding: 10px 10px;
+}
+.memeber_div {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+  column-gap: 30px;
+  .memebr_inneer {
+    width: 25%;
+    height: 160px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    > p:nth-child(1) {
+      margin-top: 2px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+    }
+    > p:nth-child(2) {
+      margin-top: -5px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+    }
+    > p:nth-child(3) {
+      margin-top: -5px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+    }
+  }
+  .memebr_inneer:hover {
+    background-color: gray;
+  }
+  .memebr_inner {
+    width: 25%;
+    height: 160px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+
+    > p:nth-child(1) {
+      margin-top: 2px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+    }
+
+    > p:nth-child(2) {
+      margin-top: -5px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+    }
+
+    > p:nth-child(3) {
+      margin-top: -5px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+    }
+  }
+}
+.seat_yes{
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.seat_no{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  cursor: not-allowed;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.seat_yes_active{
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}

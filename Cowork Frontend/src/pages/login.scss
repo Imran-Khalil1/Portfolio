@@ -1,0 +1,256 @@
+.signup_main {
+    background-color: #f4ede5;
+    height: 82vh;
+    margin-top: 18vh;
+    display: flex;
+
+    .signup_left {
+        width: 50%;
+        height: 100%;
+
+        .signup_inner_card {
+            width: 60%;
+            height: 93%;
+            margin-left: 100px;
+            margin-top: 5px;
+            border-radius: 20px;
+            background-color: rgba(243, 227, 211, 255);
+            padding: 0px 40px;
+
+            .signin_title {
+                font-size: 30px;
+                padding-top: 20px;
+                font-weight: bold;
+            }
+
+            .signup_input_div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+
+            .signup-select {
+                height: 40px;
+                border-radius: 12px;
+                border: none;
+                padding-left: 10px;
+            }
+
+            .signup-input {
+                height: 40px;
+                border: none;
+                border-radius: 15px;
+                padding-left: 20px;
+            }
+
+            .signup-input:focus {
+                outline: none;
+            }
+
+            .signup___button {
+                height: 50px;
+                border: none;
+                background-color: orange;
+                font-size: 25px;
+                border-radius: 20px;
+                color: white;
+            }
+
+            .innier_pp_sigfnup {
+                margin-top: -10px;
+                position: absolute;
+                bottom: 10px;
+                text-align: center;
+                left: 210px;
+            }
+            .line{
+                width: 100%;
+                border-bottom: 1px solid gray;
+            }
+        }
+    }
+
+    .signup_right {
+        width: 50%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+
+        >div:nth-child(1) {
+            -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+
+            >p:nth-child(1) {
+                margin-top: 160px;
+                color: white;
+                font-size: 70px;
+            }
+
+            >p:nth-child(2) {
+                color: white;
+                font-size: 39px;
+                margin-top: -79px;
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) and (min-width:768px){
+    .signup_main {
+        background-color: #f4ede5;
+        height: 82vh;
+        margin-top: 18vh;
+        display: flex;
+        .signup_left {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            .signup_inner_card {
+                width: 100%;
+                height: 93%;
+                margin-left: 0px !important;
+                margin-top: 5px;
+                border-radius: 20px;
+                background-color: rgba(243, 227, 211, 255);
+                padding: 0px 40px;
+    
+                .signin_title {
+                    font-size: 30px;
+                    padding-top: 20px;
+                    font-weight: bold;
+                }
+    
+                .signup_input_div {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 20px;
+                }
+    
+                .signup-select {
+                    height: 40px;
+                    border-radius: 12px;
+                    border: none;
+                    padding-left: 10px;
+                }
+    
+                .signup-input {
+                    height: 40px;
+                    border: none;
+                    border-radius: 15px;
+                    padding-left: 20px;
+                }
+    
+                .signup-input:focus {
+                    outline: none;
+                }
+    
+                .signup___button {
+                    height: 50px;
+                    border: none;
+                    background-color: orange;
+                    font-size: 25px;
+                    border-radius: 20px;
+                    color: white;
+                }
+    
+                .innier_pp_sigfnup {
+                    margin-top: -10px;
+                    position: absolute;
+                    bottom: 10px;
+                    text-align: center;
+                    left: 210px;
+                }
+                .line{
+                    width: 100%;
+                    border-bottom: 1px solid gray;
+                }
+            }
+        }
+    
+        .signup_right {
+          
+            display: none;
+            
+        }
+    }
+}
+@media(max-width:767px) {
+    .signup_main {
+        background-color: #f4ede5;
+        height: 82vh !important;
+        margin-top: 18vh;
+        display: flex;
+        .signup_left {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            .signup_inner_card {
+                width: 100%;
+                height: 93%;
+                margin-left: 0px !important;
+                margin-top: 5px;
+                border-radius: 20px;
+                background-color: rgba(243, 227, 211, 255);
+                padding: 0px 40px;
+    
+                .signin_title {
+                    font-size: 30px;
+                    padding-top: 20px;
+                    font-weight: bold;
+                }
+    
+                .signup_input_div {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 20px;
+                }
+    
+                .signup-select {
+                    height: 40px;
+                    border-radius: 12px;
+                    border: none;
+                    padding-left: 10px;
+                }
+    
+                .signup-input {
+                    height: 40px;
+                    border: none;
+                    border-radius: 15px;
+                    padding-left: 20px;
+                }
+    
+                .signup-input:focus {
+                    outline: none;
+                }
+    
+                .signup___button {
+                    height: 50px;
+                    border: none;
+                    background-color: orange;
+                    font-size: 25px;
+                    border-radius: 20px;
+                    color: white;
+                }
+    
+                .innier_pp_sigfnup {
+                    margin-top: -10px;
+                    position: absolute;
+                    bottom: 10px;
+                    text-align: center !important;
+                    left: 20px;
+                }
+                .line{
+                    width: 100%;
+                    border-bottom: 1px solid gray;
+                }
+            }
+        }
+    
+        .signup_right {
+          
+            display: none;
+            
+        }
+    }
+}

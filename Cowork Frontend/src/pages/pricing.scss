@@ -1,0 +1,723 @@
+.pricing_top {
+  margin-top: 5%;
+  background-color: #f1b47b;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: sticky;
+  top: 80px;
+  .pricing_top_inner {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    column-gap: 30px;
+    .selected_top {
+      background-color: white;
+      font-size: 20px;
+      color: black;
+      cursor: pointer;
+      padding: 0px 10px;
+      border-radius: 10px 10px 0px 0px;
+    }
+    .no_selected_top {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      > p {
+        color: white;
+      }
+    }
+  }
+  .pricing_top_inner_right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    .right_card {
+      width: 220px;
+      height: 180px;
+      background-color: white;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .ye_it {
+        display: flex;
+        column-gap: 10px;
+        > button {
+          padding: 3px 7px;
+          background-color: orange;
+          border: none;
+          color: white;
+          font-size: 17px;
+          font-weight: bold;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      }
+      .oh_yesssss {
+        display: flex;
+        padding-left: 20px;
+        column-gap: 10px;
+        > input {
+          width: 40%;
+          height: 25px;
+        }
+      }
+      .butonnes{
+        margin-top: 10px;
+        padding: 3px 7px;
+            background-color: orange;
+            border: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+      }
+      border-radius: 10px;
+      > i {
+        font-size: 20px;
+      }
+      > p {
+        font-size: 18px;
+      }
+    }
+    .right_card2 {
+      width: 220px;
+      height: 180px;
+      background-color: white;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid blue;
+      .ye_it {
+        display: flex;
+        column-gap: 10px;
+        > button {
+          padding: 3px 7px;
+          background-color: orange;
+          border: none;
+          color: white;
+          font-size: 17px;
+          font-weight: bold;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      }
+          .oh_yesssss {
+              display: flex;
+              padding-left: 20px;
+              column-gap: 10px;
+    
+              >input {
+                  width: 40%;
+                  height: 25px;
+              }
+          }
+    
+          .butonnes {
+              margin-top: 10px;
+              padding: 3px 7px;
+              background-color: orange;
+              border: none;
+              color: white;
+              font-size: 17px;
+              font-weight: bold;
+              border-radius: 4px;
+              cursor: pointer;
+          }
+      border-radius: 10px;
+      > i {
+        font-size: 20px;
+      }
+      > p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+.pricing_lower {
+  margin-top: 140px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  .pricing_lower_left {
+    width: 40%;
+    > div:nth-child(2) {
+      width: 100%;
+      height: 350px;
+      background-color: white;
+    }
+  }
+  .pricing_lower_right {
+    width: 55%;
+    height: auto;
+    margin-top: 53px;
+    .pricing_table_top {
+      width: 100%;
+      display: flex;
+      border-bottom: 1px solid #cecece;
+      padding: 15px 0px;
+      > div:nth-child(1) {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+      }
+      > div {
+        width: 25.5%;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+      }
+    }
+    .pricing_table_lower {
+      width: 100%;
+      display: flex;
+      border-bottom: 1px solid #cecece;
+      padding: 15px 0px;
+      cursor: pointer;
+      > div:nth-child(1) {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+      }
+
+      > div {
+        width: 25.5%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .pricing_table_lower:hover {
+      width: 100%;
+      display: flex;
+      border-bottom: 1px solid #cecece;
+      background-color: #cecece;
+      padding: 15px 0px;
+      cursor: pointer;
+      > div:nth-child(1) {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+      }
+
+      > div {
+        width: 25.5%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.oh_nooo{
+    text-decoration: line-through;
+}
+.pricingSelect{
+  height: 40px;
+  width: 300px;
+  border:none;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 10px;
+}
+
+
+@media(max-width:1024px) and (min-width:768px){
+  .pricing_top {
+    margin-top: 5%;
+    background-color: #f1b47b;
+    width: 100% !important;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: sticky;
+    top: 80px;
+    .pricing_top_inner {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      column-gap: 30px;
+      margin-top: 10px;
+      .selected_top {
+        background-color: white;
+        font-size: 20px;
+        color: black;
+        cursor: pointer;
+        padding: 0px 10px;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .no_selected_top {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        > p {
+          color: white;
+        }
+      }
+    }
+    .pricing_top_inner_right {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      column-gap: 10px;
+      position: absolute;
+      right: 0;
+      top: 70px;
+      .right_card {
+        width: 220px;
+        height: 180px;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .ye_it {
+          display: flex;
+          column-gap: 10px;
+          > button {
+            padding: 3px 7px;
+            background-color: orange;
+            border: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        }
+        .oh_yesssss {
+          display: flex;
+          padding-left: 20px;
+          column-gap: 10px;
+          > input {
+            width: 40%;
+            height: 25px;
+          }
+        }
+        .butonnes{
+          margin-top: 10px;
+          padding: 3px 7px;
+              background-color: orange;
+              border: none;
+              color: white;
+              font-size: 17px;
+              font-weight: bold;
+              border-radius: 4px;
+              cursor: pointer;
+        }
+        border-radius: 10px;
+        > i {
+          font-size: 20px;
+        }
+        > p {
+          font-size: 18px;
+        }
+      }
+      .right_card2 {
+        width: 220px;
+        height: 180px;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid blue;
+        .ye_it {
+          display: flex;
+          column-gap: 10px;
+          > button {
+            padding: 3px 7px;
+            background-color: orange;
+            border: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        }
+            .oh_yesssss {
+                display: flex;
+                padding-left: 20px;
+                column-gap: 10px;
+      
+                >input {
+                    width: 40%;
+                    height: 25px;
+                }
+            }
+      
+            .butonnes {
+                margin-top: 10px;
+                padding: 3px 7px;
+                background-color: orange;
+                border: none;
+                color: white;
+                font-size: 17px;
+                font-weight: bold;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        border-radius: 10px;
+        > i {
+          font-size: 20px;
+        }
+        > p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .pricing_lower {
+    margin-top: 140px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .pricing_lower_left {
+      width: 100%;
+      > div:nth-child(2) {
+        width: 100%;
+        height: 350px;
+        background-color: white;
+      }
+    }
+    .pricing_lower_right {
+      width: 100%;
+      height: auto;
+      margin-top: 53px;
+      .pricing_table_top {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #cecece;
+        padding: 15px 0px;
+        > div:nth-child(1) {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+          font-weight: bold;
+        }
+        > div {
+          width: 25.5%;
+          display: flex;
+          justify-content: center;
+          font-weight: bold;
+        }
+      }
+      .pricing_table_lower {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #cecece;
+        padding: 15px 0px;
+        cursor: pointer;
+        > div:nth-child(1) {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+        }
+  
+        > div {
+          width: 25.5%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .pricing_table_lower:hover {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #cecece;
+        background-color: #cecece;
+        padding: 15px 0px;
+        cursor: pointer;
+        > div:nth-child(1) {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+        }
+  
+        > div {
+          width: 25.5%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  
+  .oh_nooo{
+      text-decoration: line-through;
+  }
+  .pricingSelect{
+    height: 40px;
+    width: 300px;
+    border:none;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:767px){
+  .pricing_top {
+    margin-top: 10%;
+    width: 100% !important;
+    background: none;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    top: 160px;
+    .pricing_top_inner {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      column-gap: 30px;
+      margin-top: 10px;
+      .selected_top {
+        background-color: white;
+        font-size: 20px;
+        color: black;
+        cursor: pointer;
+        padding: 0px 10px;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .no_selected_top {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        > p {
+          color: white;
+        }
+      }
+    }
+    .pricing_top_inner_right {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 10px;
+      position: relative;
+      right: 0;
+      top: 10px;
+      margin-bottom: 40px;
+      .right_card {
+        width: 100%;
+        height: 180px;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        .ye_it {
+          display: flex;
+          column-gap: 10px;
+          > button {
+            padding: 3px 7px;
+            background-color: orange;
+            border: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        }
+        .oh_yesssss {
+          display: flex;
+          padding-left: 20px;
+          column-gap: 10px;
+          > input {
+            width: 40%;
+            height: 25px;
+          }
+        }
+        .butonnes{
+          margin-top: 10px;
+          padding: 3px 7px;
+              background-color: orange;
+              border: none;
+              color: white;
+              font-size: 17px;
+              font-weight: bold;
+              border-radius: 4px;
+              cursor: pointer;
+        }
+        border-radius: 10px;
+        > i {
+          font-size: 20px;
+        }
+        > p {
+          font-size: 18px;
+        }
+      }
+      .right_card2 {
+        width: 220px;
+        height: 180px;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid blue;
+        .ye_it {
+          display: flex;
+          column-gap: 10px;
+          > button {
+            padding: 3px 7px;
+            background-color: orange;
+            border: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        }
+            .oh_yesssss {
+                display: flex;
+                padding-left: 20px;
+                column-gap: 10px;
+      
+                >input {
+                    width: 40%;
+                    height: 25px;
+                }
+            }
+      
+            .butonnes {
+                margin-top: 10px;
+                padding: 3px 7px;
+                background-color: orange;
+                border: none;
+                color: white;
+                font-size: 17px;
+                font-weight: bold;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        border-radius: 10px;
+        > i {
+          font-size: 20px;
+        }
+        > p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .pricing_lower {
+    margin-top: 140px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .pricing_lower_left {
+      width: 100%;
+      > div:nth-child(2) {
+        width: 100%;
+        height: 350px;
+        background-color: white;
+      }
+    }
+    .pricing_lower_right {
+      width: 100%;
+      height: auto;
+      margin-top: 53px;
+      .pricing_table_top {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #cecece;
+        padding: 15px 0px;
+        > div:nth-child(1) {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+          font-weight: bold;
+        }
+        > div {
+          width: 25.5%;
+          display: flex;
+          justify-content: center;
+          font-weight: bold;
+        }
+      }
+      .pricing_table_lower {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #cecece;
+        padding: 15px 0px;
+        cursor: pointer;
+        > div:nth-child(1) {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+        }
+  
+        > div {
+          width: 25.5%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .pricing_table_lower:hover {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #cecece;
+        background-color: #cecece;
+        padding: 15px 0px;
+        cursor: pointer;
+        > div:nth-child(1) {
+          width: 10%;
+          display: flex;
+          justify-content: center;
+        }
+  
+        > div {
+          width: 25.5%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  
+  .oh_nooo{
+      text-decoration: line-through;
+  }
+  .pricingSelect{
+    height: 40px;
+    width: 300px;
+    border:none;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 10px;
+  }
+}

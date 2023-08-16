@@ -1,0 +1,154 @@
+.listing_top{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+.input_div_listing {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        >label {
+            font-size: 15px;
+            color: black;
+            font-weight: bold;
+        }
+
+        >input {
+            width: 90%;
+            margin-top: 10px;
+            height: 35px;
+            border-radius: 10px;
+            padding-left: 10px;
+            background-color: white !important;
+            border: 1px solid black;
+        }
+
+        >input::placeholder {
+            color: black;
+            font-weight: bold;
+        }
+        .listing_select{
+            height: 35px;
+            width:90%;
+            border-radius: 10px;
+            padding-left: 10px;
+            background-color: white !important;
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+    }
+}
+
+.listing_member{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 50px;
+    .membershipBox{
+        width: 150px;
+        height: 130px;
+        border-radius: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        >p{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        >i{
+            font-size: 30px;
+            margin-top: 6px;
+        }
+    }
+    .membershipBox:hover{
+        transform: scale(1.03);
+        >i:hover{
+            color:blue
+        }
+    }
+}
+.listing_member_lower{
+    background-color: #F4EDE5;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.listing_images{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    .it_is_done{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .liosting_image{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #cec;
+    }
+    .inner_minus{
+         
+         color: red;
+         margin-left: 15px;
+         cursor: pointer;
+    }
+}
+
+.private_selection{
+    width: 95%;
+    display: flex;
+    border: 1px solid #cecece;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 20px;
+}
+.reserve_label{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reserve_main{
+    margin-top: 20px;
+}
+
+.seat_yes {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.seat_no {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    cursor: not-allowed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seat_yes_active {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}

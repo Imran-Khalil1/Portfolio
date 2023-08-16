@@ -1,0 +1,96 @@
+.location__Main{
+    margin-top: 18vh;
+    padding: 20px 50px;
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4ede5;
+    
+    .locations_left{
+        width: 20%;
+        border-right: 1px solid #cecece;
+        margin-top: 20px;
+        >h2{
+            margin-top: 5px;
+        }
+        .filter_select{
+            width: 90%;
+            height: 35px;
+            border-radius: 10px;
+        }
+    }
+    .locations_right{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        padding: 0px 40px;
+       
+    }
+}
+
+@media(max-width:1024px) and (min-width:768px){
+    .location__Main{
+        margin-top: 18vh;
+        padding: 20px 20px;
+        display: flex;
+        min-height: 100vh;
+        background-color: #f4ede5;
+        .locations_left{
+            width: 20%;
+            border-right: 1px solid #cecece;
+            margin-top: 20px;
+            >h2{
+                margin-top: 5px;
+            }
+            .filter_select{
+                width: 100%;
+                height: 35px;
+                border-radius: 10px;
+            }
+        }
+        .locations_right{
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 10px;
+            padding: 0px 20px;
+           
+        }
+    }
+}
+
+@media(max-width:768px){
+    .location__Main{
+        margin-top: 18vh;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column !important;
+        min-height: auto !important;
+        background-color: #f4ede5;
+        .locations_left{
+            width: 100%;
+            border-right: 1px solid #cecece;
+            margin-top: 20px;
+            >h2{
+                margin-bottom: 0px;
+                margin-top: 5px;
+            }
+            .filter_select{
+                width: 100%;
+                height: 35px;
+                border-radius: 10px;
+            }
+        }
+        .locations_right{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 10px;
+            padding: 0px 10px;
+           
+        }
+    }
+}

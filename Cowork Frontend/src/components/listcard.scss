@@ -1,0 +1,181 @@
+.listcard__main{
+    width: 310px;
+    height: 460px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    cursor: pointer;
+    .listCards_imageSectiuon{
+        height: 55%;
+        width: 100%;
+        >img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+    }
+    .below_section{
+        padding:0px 15px;
+        display: flex;
+        justify-content: space-between;
+       >div:nth-child(1)
+       {
+        >p:nth-child(1) {
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 9px;
+            }
+            >div:nth-child(2)
+            {
+                margin-top: -10px;
+            }
+       }
+       .hear_list_card{
+        font-size: 30px;
+        margin-top: 17px;
+       }
+    }
+    .amneties_list{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        .amn_inner{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+            margin-top: -25px;
+            >p:nth-child(1)
+            {
+                font-weight: bold;
+            }
+        }
+    }
+}
+.listcard__main:hover {
+    transform: scale(1.02);
+    transition: 0.7s ease;
+}
+
+@media(max-width:1024px) and (min-width:768px){
+    .listcard__main{
+        width: 100%;
+        height: 460px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: white;
+        cursor: pointer;
+        .listCards_imageSectiuon{
+            height: 55%;
+            width: 100%;
+            >img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px 10px 0px 0px;
+            }
+        }
+        .below_section{
+            padding:0px 15px;
+            display: flex;
+            justify-content: space-between;
+           >div:nth-child(1)
+           {
+            >p:nth-child(1) {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-top: 9px;
+                }
+                >div:nth-child(2)
+                {
+                    margin-top: -10px;
+                }
+           }
+           .hear_list_card{
+            font-size: 30px;
+            margin-top: 17px;
+           }
+        }
+        .amneties_list{
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+            .amn_inner{
+                display: flex;
+                justify-content: space-between;
+                padding: 0px 10px;
+                margin-top: -25px;
+                >p:nth-child(1)
+                {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .listcard__main:hover {
+        transform: scale(1.02);
+        transition: 0.7s ease;
+    }
+}
+
+@media(max-width:767px) {
+    .listcard__main{
+        width: 100%;
+        height: 460px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: white;
+        cursor: pointer;
+        .listCards_imageSectiuon{
+            height: 55%;
+            width: 100%;
+            >img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px 10px 0px 0px;
+            }
+        }
+        .below_section{
+            padding:0px 15px;
+            display: flex;
+            justify-content: space-between;
+           >div:nth-child(1)
+           {
+            >p:nth-child(1) {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-top: 9px;
+                }
+                >div:nth-child(2)
+                {
+                    margin-top: -10px;
+                }
+           }
+           .hear_list_card{
+            font-size: 30px;
+            margin-top: 17px;
+           }
+        }
+        .amneties_list{
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+            .amn_inner{
+                display: flex;
+                justify-content: space-between;
+                padding: 0px 10px;
+                margin-top: -25px;
+                >p:nth-child(1)
+                {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .listcard__main:hover {
+        transform: scale(1.02);
+        transition: 0.7s ease;
+    }
+}
+

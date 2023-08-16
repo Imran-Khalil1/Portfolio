@@ -1,0 +1,226 @@
+.property_main {
+    height: auto;
+    width: 100%;
+    padding: 0px 0px;
+    margin-top: 23vh;
+    display: flex;
+    background-color: #f4ede5;
+
+    .property__inner {
+        width: 550px;
+        margin-left: 0px;
+    }
+
+    .slick-list {
+        width: 550px !important;
+    }
+
+    .inner_image_property {
+        width: 550px;
+        height: 530px;
+        border-radius: 10px;
+    }
+
+    .property_right {
+        margin-left: 70px;
+
+        .property_title {
+            font-size: 42px;
+            margin-top: 0px;
+        }
+
+        .property_wrapper {
+            margin-top: -20px;
+            display: flex;
+            width: 730px;
+            justify-content: space-between;
+
+            .sub_title {
+                font-size: 20px;
+                font-weight: 500;
+                font-weight: bold;
+            }
+
+            .desctiption_property {
+                font-size: 20px;
+                font-weight: normal;
+                margin-top: 23px;
+            }
+        }
+    }
+}
+
+.property_bookNow {
+    padding: 10px 40px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.property_bookNow:hover {
+    padding: 10px 40px;
+    background-color: rgb(196, 177, 142);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review_property {
+    width: 100%;
+    height: auto;
+    display: flex;
+    column-gap: 60px;
+
+    .review_left {
+        width: 30%;
+        height: 100%;
+        border: 1px solid #cecece;
+        border-radius: 10px;
+        padding: 0px 20px;
+        padding-bottom: 20px;
+
+        .left_inner {
+            display: flex;
+            align-items: center;
+            column-gap: 30px;
+            justify-content: center;
+            flex-direction: column;
+
+            >p {
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+
+        .very_inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >input {
+                width: 70%;
+                margin-top: 20px;
+                height: 35px;
+                border-radius: 10px;
+            }
+
+            >textArea {
+                width: 70%;
+                margin-top: 20px;
+                height: 100px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .review_right {
+        width: 60%;
+        height: 100%;
+        border: 1px solid #cecece;
+        border-radius: 10px;
+        padding-left: 20px;
+
+        .review_card {
+            margin-top: 10px;
+            height: auto;
+            width: 70%;
+            display: flex;
+
+            >img {
+                border-radius: 50%;
+                height: 80px;
+            }
+
+            >div:nth-child(2) {
+                margin-left: 10px;
+
+                >p:nth-child(2) {
+                    margin-top: 3px;
+                }
+
+                >p:nth-child(3) {
+                    margin-top: -5px;
+                }
+            }
+        }
+    }
+}
+
+.description__ionner {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.detailed_it_is {
+    display: flex;
+    column-gap: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 50px 0px;
+
+    .property_wrapper {
+        margin-top: -20px;
+
+        .propert_icon {
+            font-size: 50px;
+        }
+
+        .desctiption_property {
+            font-size: 16px;
+            font-weight: normal;
+            margin-top: 23px;
+            color: red;
+            text-align: center;
+        }
+    }
+}
+
+.property_wrapper2 {
+    margin-top: -20px;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    background-color: white;
+
+    .sub_title {
+        font-size: 20px;
+        font-weight: 500;
+        font-weight: bold;
+    }
+
+    .desctiption_property {
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: 23px;
+    }
+}
+
+.property_wrapper3 {
+    margin-top: -10px;
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    background-color: white;
+
+    .sub_title {
+        font-size: 20px;
+        font-weight: 500;
+        font-weight: bold;
+    }
+
+    .desctiption_property {
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: 23px;
+    }
+}

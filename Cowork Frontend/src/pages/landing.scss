@@ -1,0 +1,429 @@
+.landing_main {
+  width: 100%;
+  height: 82vh;
+  overflow-x: hidden;
+  margin-top: 18vh;
+  position: relative;
+  background-color: #f4ede5;
+  .slick-list {
+    height: 82vh !important;
+    width: 100% !important;
+  }
+  .slick-slide {
+    height: 80vh !important;
+  }
+
+  .image_div {
+    width: 100%;
+    height: 100%;
+  }
+  .inner_image {
+    width: 100%;
+    height: 82vh;
+    object-fit: cover;
+  }
+  .signin-Button {
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    left: 690px;
+    bottom: 70px;
+    width: 170px;
+    height: 60px;
+    font-size: 26px;
+    border: none;
+    border-radius: 28px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+  }
+  .signin-Button:hover {
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    left: 690px;
+    bottom: 70px;
+    width: 170px;
+    height: 60px;
+    font-size: 26px;
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(204, 149, 47);
+    color: white;
+  }
+  .information_outer {
+    height: 500px;
+    background-color: #f4ede5;
+    margin-bottom: -20px;
+    margin-top: -20px;
+  }
+  .information_inner {
+    background-color: #f1b47b;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 150px;
+    row-gap: 20px;
+    padding: 20px;
+  }
+  .about {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .information_image {
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  .information_text {
+    font-size: 20px;
+  }
+  .information_specific {
+    text-align: center;
+    width: 200px;
+  }
+}
+
+.Locations_main {
+  background-color: #f4ede5;
+  margin-top: -10px;
+  padding: 0px 80px;
+  > h1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .locations_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 45px;
+    row-gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    .location_card {
+      width: 400px;
+      height: 200px;
+
+      border-radius: 10px;
+      background-color: white;
+      display: flex;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      cursor: pointer;
+      .image_left {
+        width: 180px;
+        height: 200px;
+        border-radius: 10px 0px 0px 10px;
+        object-fit: cover;
+        > img {
+        border-radius: 10px 0px 0px 10px;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .location_left {
+        width: 200px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >p:nth-child(1)
+        {
+            font-weight: bold;
+            font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:1024px) and (min-width:768px){
+  .landing_main {
+    width: 100%;
+    height: 82vh;
+    overflow-x: hidden;
+    margin-top: 18vh;
+    position: relative;
+    background-color: #f4ede5;
+    .slick-list {
+      height: 82vh !important;
+      width: 100% !important;
+    }
+    .slick-slide {
+      height: 80vh !important;
+    }
+  
+    .image_div {
+      width: 100%;
+      height: 100%;
+    }
+    .inner_image {
+      width: 100%;
+      height: 82vh;
+      object-fit: cover;
+    }
+    .signin-Button {
+      position: absolute;
+      background-color: white;
+      z-index: 2;
+      left: 330px;
+      bottom: 70px;
+      width: 170px;
+      height: 60px;
+      font-size: 26px;
+      border: none;
+      border-radius: 28px;
+      background-color: orange;
+      color: white;
+      cursor: pointer;
+    }
+    .signin-Button:hover {
+      position: absolute;
+      background-color: white;
+      z-index: 2;
+      left: 690px;
+      bottom: 70px;
+      width: 170px;
+      height: 60px;
+      font-size: 26px;
+      border: none;
+      border-radius: 28px;
+      background-color: rgb(204, 149, 47);
+      color: white;
+    }
+    .information_outer {
+      height: auto;
+      background-color: #f4ede5;
+      margin-bottom: -20px;
+      margin-top: -20px;
+    }
+    .information_inner {
+      height: auto !important;
+      background-color: #f1b47b;
+      width: 90%;
+      margin-left: 5%;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      column-gap: 150px;
+      row-gap: 20px;
+      padding: 20px;
+    }
+    .about {
+      text-align: center;
+      padding-top: 20px;
+    }
+    .information_image {
+      width: 80px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+    .information_text {
+      font-size: 20px;
+    }
+    .information_specific {
+      text-align: center;
+      width: 160px;
+    }
+  }
+  
+  .Locations_main {
+    background-color: #f4ede5;
+    margin-top: -10px;
+    padding: 0px 80px;
+    > h1 {
+      text-align: center;
+      padding-top: 20px;
+    }
+    .locations_inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 45px;
+      row-gap: 30px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      .location_card {
+        width: 400px;
+        height: 200px;
+  
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        cursor: pointer;
+        .image_left {
+          width: 180px;
+          height: 200px;
+          border-radius: 10px 0px 0px 10px;
+          object-fit: cover;
+          > img {
+          border-radius: 10px 0px 0px 10px;
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .location_left {
+          width: 200px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          >p:nth-child(1)
+          {
+              font-weight: bold;
+              font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  
+}
+@media(max-width:767px) {
+  .landing_main {
+    width: 100%;
+    height: 82vh;
+    overflow-x: hidden;
+    margin-top: 18vh;
+    position: relative;
+    background-color: #f4ede5;
+    .slick-list {
+      height: 60vh !important;
+      width: 100% !important;
+    }
+    .slick-slide {
+      height: 60vh !important;
+    }
+  
+    .image_div {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .inner_image {
+      width: 100%;
+      height: 82vh;
+      object-fit: cover;
+    }
+    .signin-Button {
+      position: absolute;
+      background-color: white;
+      z-index: 2;
+      left: 100px;
+      bottom: 270px;
+      width: 170px;
+      height: 60px;
+      font-size: 26px;
+      border: none;
+      border-radius: 28px;
+      background-color: orange;
+      color: white;
+      cursor: pointer;
+    }
+    .signin-Button:hover {
+      position: absolute;
+      background-color: white;
+      z-index: 2;
+      left: 690px;
+      bottom: 70px;
+      width: 170px;
+      height: 60px;
+      font-size: 26px;
+      border: none;
+      border-radius: 28px;
+      background-color: rgb(204, 149, 47);
+      color: white;
+    }
+    .information_outer {
+      height: auto;
+      background-color: #f4ede5;
+      margin-bottom: -20px;
+      margin-top: -20px;
+    }
+    .information_inner {
+      height: auto !important;
+      background-color: #f1b47b;
+      width: 90%;
+      margin-left: 5%;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      column-gap: 150px;
+      row-gap: 20px;
+      padding: 20px;
+    }
+    .about {
+      text-align: center;
+      padding-top: 20px;
+    }
+    .information_image {
+      width: 80px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+    .information_text {
+      font-size: 20px;
+    }
+    .information_specific {
+      text-align: center;
+      width: 160px;
+    }
+  }
+  
+  .Locations_main {
+    background-color: #f4ede5;
+    margin-top: -10px;
+    padding: 0px 80px;
+    > h1 {
+      text-align: center;
+      padding-top: 20px;
+    }
+    .locations_inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 45px;
+      row-gap: 30px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      .location_card {
+        width: 400px;
+        height: 200px;
+  
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        cursor: pointer;
+        .image_left {
+          width: 180px;
+          height: 200px;
+          border-radius: 10px 0px 0px 10px;
+          object-fit: cover;
+          > img {
+          border-radius: 10px 0px 0px 10px;
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .location_left {
+          width: 200px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          >p:nth-child(1)
+          {
+              font-weight: bold;
+              font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  
+}
